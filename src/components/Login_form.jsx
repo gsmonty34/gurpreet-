@@ -15,7 +15,7 @@ function Login_form() {
             <form>
                 <h1>Log In </h1>
                 <label>Email<br />
-                    <input type="text" name='email' placeholder='Enter you email' value={email} onChange={(e) => { setEmail(e.target.value) }} />
+                    <input type="email" name='email' placeholder='Enter you email' value={email} onChange={(e) => { setEmail(e.target.value) }} />
                 </label>
                 <br />
                 <label htmlFor=""> Password <br />
